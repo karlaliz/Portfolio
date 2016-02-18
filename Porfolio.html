@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <title>Portfolio</title>
+    </head>
+    <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 ">
+                <img class="img-responsive" src="logo.jpg" alt="udacity logo" width="100" height="100">
+            </div>
+            <div class="col-md-8 title-color">
+                <h1 class="text-right text-uppercase text-thin title-super">Karla Parada</h1>
+                <h3 class="text-right text-uppercase">Front-end</h3>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="lead"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive" src="a.jpg" alt="cover portfolio">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6">
+                <img class="img-responsive" src="b.jpg" alt="project 1" data-toggle="modal" data-target="#project1">
+                <h3 class="text-uppercase">Resume</h3>
+                <p><a href="https://github.com/karlaliz">Link to project</a></p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="c.jpg" alt="project 2" data-toggle="modal" data-target="#project2">
+                <h3 class="text-uppercase">Arcade Game</h3>
+                <p><a href="https://github.com/karlaliz">Link to project</a></p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6">
+                <img class="img-responsive" src="d.jpg" alt="project 3" data-toggle="modal" data-target="#project3">
+                <h3 class="text-uppercase">Website Optimization</h3>
+                <p><a href="https://github.com/karlaliz">Link to project</a></p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="e.jpg" alt="project 4" data-toggle="modal" data-target="#project4">
+                <h3 class="text-uppercase">Neighborhood Map</h3>
+                <p><a href="https://github.com/karlaliz">Link to project</a></p>
+            </div>
+        </div>
+    </div>    
+<!-- Navbar -->        
+        <div class="container">
+            <nav class="navbar navbar-light bg-faded">  
+              <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Arcade Game</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Website Optimizacion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Neighborhood Map</a>
+                </li>                
+              </ul>
+            </nav>
+</div>
+<!-- Modal -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <article>
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Resume</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="b.jpg" alt="modal 1">
+                        <p>In many contexts, a résumé is typically limited to one or two pages of size A4 or Letter-size, highlighting only those experiences and qualifications that the author considers most relevant to the desired position. Many résumés contain keywords or skills that potential employers are looking for via Applicant Tracking Systems, make heavy use of active verbs, and display content in a flattering manner. Résumés can vary in style and length, but should always contain accurate contact information of the job seeker. A résumé is a marketing tool in which the content should be adapted to suit each individual job application and/or applications aimed at a particular industry. The transmission of résumés directly to employers became increasingly popular as late as 2002. Job seekers were able to circumvent the job application process and reach employers through direct email contact and résumé blasting, a term meaning the mass distribution of résumés to increase personal visibility within the job market. However the mass distribution of résumés to employers can often have a negative effect on the applicant's chances of securing employment as the résumés tend not to be tailored for the specific positions the applicant is applying for. It is usually therefore more sensible to optimize the résumé for each position applied for and its keywords. In order to keep track of all experiences, keeping a 'master résumé' document is recommended, providing job-seekers with the ability to customize a tailored résumé while making sure extraneous information is easily accessible for future use, if needed.The complexity or simplicity of various résumé formats tends to produce results varying from person to person, for the occupation, and to the industry. It is important to note that résumés or CVs used by medical professionals, professors, artists and people in other specialized fields may be comparatively longer. For example, an artist's résumé, typically excluding any non-art-related employment, may include extensive lists of solo and group exhibitions.</p>
+                    </div>
+                    </article>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel2">Arcade Game</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="c.jpg" alt="modal 2">  
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel3">Website Optimization</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="d.jpg" alt="modal 3">  
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel4">Neighborhood map</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="e.jpg" alt="modal 4">  
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>                 
+    </body>
+</html>
